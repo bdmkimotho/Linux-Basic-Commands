@@ -60,15 +60,48 @@ For example rename usingvim.txt to usingvimupdated.txt
 >cp sourcefile destinationfile
 For example create a copy of usingvimupdated.txt and name it usingvimcopy.txt
 >cp usingvimupdated.txt usingvimcopy.txt
+# 13 Downloadfiles from internet
+>wget fileaddress
+For example downloading file from https://ash-speed.hetzner.com/
+>wget https://ash-speed.hetzner.com/
 
-Before
- 
-After
- 
+# Networking
+# 14 View Network interfaces
+>ifconfig
+# 15 Check end point reachability
+>ping endpoint ip
+For example testing youtube.com reachability
+>ping youtube.com
+
+# 16 Add users
+user add
+For example adding user name benardm
+>useradd benardm
+
+# 17 Add users and home directory
+>sudo useradd -m username
+For example add user with name benardk
+>sudo useradd -m benardk
+
+# 18 View users
+>cat /etc/passwd
+
+# 19 Change user 
+su – username
+For example switching from root to benardk
+su - benardk
+
+# System information
+
+# 20 Check running process
+>top
 
 
-Change from root user to created users
-cat  /etc/passwd
+
+
+
+
+
 
 
 
