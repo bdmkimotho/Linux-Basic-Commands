@@ -100,9 +100,15 @@ su - benardk
 #21 Check memory utilisation
 >free
 
+#22 Secure copy from local pc to remote server
+>scp filename  username@remoteip:target directory
+For example
+>scp Linux-Basic-Commands.txt root@159.65.222.96:/home/benardk/securecopy
 
-
-
+#22 Secure copy from remote server to local PC
+scp username@remoteip:target directory/filename .
+For example
+scp root@159.65.222.96:/home/benardk/securecopy/remote.txt .
 
 
 
