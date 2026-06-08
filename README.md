@@ -90,11 +90,15 @@ For example add user with name benardk
 su – username
 For example switching from root to benardk
 su - benardk
+#20 check current user
+>whoami
 
 # System information
-
-# 20 Check running process
+# 21 Check running process
 >top
+
+#21 Check memory utilisation
+>free
 
 
 
